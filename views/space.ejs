@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quizzer</title>
+<style type = "text/css" >
+
+  body{
+    padding: 70px;
+    color: #F3F3F3;
+  }
+body .card {
+  background-color: #FFFCDF;
+}
+
+body .navbar{
+    padding: 0.1rem;
+}
+.navbar-brand{
+  padding-left: 10px;
+}
+
+body .topnav-right a{
+  color: #bec3ca;
+  float: left;
+  text-align: center;
+  padding: .5rem .5rem;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.navbar-text {
+  padding-left: 20px;
+}
+
+  .card-deck{
+    padding: 30px
+  }
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/stylesheets/css-res-min-1-15.css" media="screen">
+<script type="text/javascript" src="/javascripts/js-res-10.js" ></script>
+<link href="https://www.indiabix.com/favicon.ico" type="image/x-icon" rel="shortcut icon">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+   <a class="navbar-brand" href="/">
+    <img src="http://localhost:3000/images/logo1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <b>Quizzer </b>
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" style="padding-left: 10px">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link " href="/">Contact</a>
+      </li>
+    </ul>
+      <div class="topnav-right"> 
+        <% if(!currentUser){ %>
+          <a href="/register">Register</a>
+          <a href="/login">Login</a>
+        <%} else{%>
+          <<a href="#"> <%= currentUser.first %> <%= currentUser.last %> </a>
+          <a href="/logout">Logout</a>
+        <% } %>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <% if(error && error.length>0){ %>
+    <div class="alert alert-danger" role="alert"><%=error%></div>
+  <%}%>
+  <% if(success && success.length>0){ %>
+    <div class="alert alert-success" role="alert"><%=success%></div>
+  <%}%>
+</div>
+
+<div class="whole-page">    
+  <div class="inner-page">
+    <div class="main-left">
+      <% space.forEach(function(space){ %>
+        <div class="bix-div-container">
+        <table class="bix-tbl-container" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tbody>
+          <tr>
+            <td class="bix-td-qno" rowspan="2" valign="top" align="left"><%= space.no %>.&nbsp;</td>
+              <td class="bix-td-qtxt" valign="top">
+                <p><%= space.question %></p>
+              </td>
+          </tr>
+          <tr>
+            <td class="bix-td-miscell" valign="top">
+              <table class="bix-tbl-options" id="<%= space.idtd %>" %>" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td class="bix-td-option" width="1%" id="<%= space.answers[0].ide %>">
+                      <a id="<%= space.answers[0].idop %>" href="javascript: void 0;">A.</a>
+                    </td>
+                    <td class="bix-td-option" width="99%" id="<%= space.answers[0].tb %>"> <%= space.answers[0].text %>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="bix-td-option" width="1%" id="<%= space.answers[1].ide %>">
+                      <a id="<%= space.answers[1].idop %>" href="javascript: void 0">B.</a>
+                    </td>
+                    <td class="bix-td-option" width="99%" id="<%= space.answers[1].tb %>"><%= space.answers[1].text %>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="bix-td-option" width="1%" id="<%= space.answers[2].ide %>">
+                      <a id="<%= space.answers[2].idop %>" href="javascript: void 0;">C.</a>
+                    </td>
+                    <td class="bix-td-option" width="99%" id="<%= space.answers[2].tb %>"><%= space.answers[2].text %>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><input type="hidden" class="jq-hdnakq" id="<%= space.hid %>" value="<%= space.correct %>">
+              <div class="bix-div-answers mx-none" id="<%= space.divans %>">
+                <p><span class="mx-green mx-bold">answers:</span> Option <span class="jq-hdnakqb mx-bold"><%= space.correct %></span></p> 
+
+                <hr>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

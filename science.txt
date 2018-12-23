@@ -1,0 +1,484 @@
+(
+[
+{
+	"timestamp": "2018-02-02 20:04:25",
+	"question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+	"answers": [
+		{
+		"text": "Oxygen",
+		"choice": "A",
+		"ide": "tdOptionNo_A_443",
+		"tb" : "tdOptionDt_A_443",
+		"idop":"lnkOptionLink_A_443"
+		},
+		{
+		"text": "Hydrogen sulphide",
+		"choice": "B",
+		"ide": "tdOptionNo_B_443",
+		"tb" : "tdOptionDt_B_443",
+		"idop":"lnkOptionLink_B_443"
+		},
+		{
+		"text": "Carbon dioxide",
+		"choice": "C",
+		"ide": "tdOptionNo_C_443",
+		"tb" : "tdOptionDt_C_443",
+		"idop":"lnkOptionLink_C_443"
+		}
+	],
+	"correct" : "B",
+	"no" : 1,
+	"divans":"divAnswer_443",
+	"idtd": "tblOption_443",
+	"hid": "hdnAnswer_443"
+	
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Which of the following is a non metal that remains liquid at room temperature?",
+	"answers": [
+		{
+		"text": "Phosphorous",
+		"choice": "A",
+		"ide": "tdOptionNo_A_444",
+		"tb" : "tdOptionDt_A_444",
+		"idop":"lnkOptionLink_A_444"
+		},
+		{
+		"text": "Bromine",
+		"choice": "B",
+		"ide": "tdOptionNo_B_444",
+		"tb" : "tdOptionDt_B_444",
+		"idop":"lnkOptionLink_B_444"
+		},
+		{
+		"text": "Chlorine",
+		"choice": "C",
+		"ide": "tdOptionNo_C_444",
+		"tb" : "tdOptionDt_C_444",
+		"idop":"lnkOptionLink_C_444"
+		}
+	],
+	"correct" : "B",
+	"no" : 2,
+	"divans":"divAnswer_444",
+	"idtd": "tblOption_444",
+	"hid": "hdnAnswer_444"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Which of the following is used in pencils?",
+	"answers": [
+		{
+		"text": "Graphite",
+		"choice": "A",
+		"ide": "tdOptionNo_A_400",
+		"tb" : "tdOptionDt_A_400",
+		"idop":"lnkOptionLink_A_400"
+		},
+		{
+		"text": "Silicon",
+		"choice": "B",
+		"ide": "tdOptionNo_B_400",
+		"tb" : "tdOptionDt_B_400",
+		"idop":"lnkOptionLink_B_400"
+		},
+		{
+		"text": "Charcoal",
+		"choice": "C",
+		"ide": "tdOptionNo_C_400",
+		"tb" : "tdOptionDt_C_400",
+		"idop":"lnkOptionLink_C_400"
+		}
+	],
+	"correct" : "A",
+	"no" : 3,
+	"divans":"divAnswer_400",
+	"idtd": "tblOption_400",
+	"hid": "hdnAnswer_400"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Chlorophyll is a naturally occurring chelate compound in which central metal is",
+	"answers": [
+		{
+		"text": "copper",
+		"choice": "A",
+		"ide": "tdOptionNo_A_401",
+		"tb" : "tdOptionDt_A_401",
+		"idop":"lnkOptionLink_A_401"
+		},
+		{
+		"text": "Magnesium",
+		"choice": "B",
+		"ide": "tdOptionNo_B_401",
+		"tb" : "tdOptionDt_B_401",
+		"idop":"lnkOptionLink_B_401"
+		},
+		{
+		"text": "iron",
+		"choice": "C",
+		"ide": "tdOptionNo_C_401",
+		"tb" : "tdOptionDt_C_401",
+		"idop":"lnkOptionLink_C_401"
+		}
+	],
+	"correct" : "B",
+	"no" : 4,
+	"divans":"divAnswer_401",
+	"idtd": "tblOption_401",
+	"hid": "hdnAnswer_401"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Which of the following metals forms an amalgam with other metals?",
+	"answers": [
+		{
+		"text": "Tin",
+		"choice": "A",
+		"ide": "tdOptionNo_A_402",
+		"tb" : "tdOptionDt_A_402",
+		"idop":"lnkOptionLink_A_402"
+		},
+		{
+		"text": "Mercury",
+		"choice": "B",
+		"ide": "tdOptionNo_B_402",
+		"tb" : "tdOptionDt_B_402",
+		"idop":"lnkOptionLink_B_402"
+		},
+		{
+		"text": "Lead",
+		"choice": "C",
+		"ide": "tdOptionNo_C_402",
+		"tb" : "tdOptionDt_C_402",
+		"idop":"lnkOptionLink_C_402"
+		}
+	],
+	"correct" : "B",
+	"no" : 5,
+	"divans":"divAnswer_402",
+	"idtd": "tblOption_402",
+	"hid": "hdnAnswer_402"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Chemical formula for water is",
+	"answers": [
+		{
+		"text": "NaAlO2",
+		"choice": "A",
+		"ide": "tdOptionNo_A_403",
+		"tb" : "tdOptionDt_A_403",
+		"idop":"lnkOptionLink_A_403"
+		},
+		{
+		"text": "H2O",
+		"choice": "B",
+		"ide": "tdOptionNo_B_403",
+		"tb" : "tdOptionDt_B_403",
+		"idop":"lnkOptionLink_B_403"
+		},
+		{
+		"text": "Al2O3",
+		"choice": "C",
+		"ide": "tdOptionNo_C_403",
+		"tb" : "tdOptionDt_C_403",
+		"idop":"lnkOptionLink_C_403"
+		}
+	],
+	"correct" : "B",
+	"no" : 6,
+	"divans":"divAnswer_403",
+	"idtd": "tblOption_403",
+	"hid": "hdnAnswer_403"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "The gas usually filled in the electric bulb is",
+	"answers": [
+		{
+		"text": "nitrogen",
+		"choice": "A",
+		"ide": "tdOptionNo_A_404",
+		"tb" : "tdOptionDt_A_404",
+		"idop":"lnkOptionLink_A_404"
+		},
+		{
+		"text": "hydrogen",
+		"choice": "B",
+		"ide": "tdOptionNo_B_404",
+		"tb" : "tdOptionDt_B_404",
+		"idop":"lnkOptionLink_B_404"
+		},
+		{
+		"text": "carbon dioxide",
+		"choice": "C",
+		"ide": "tdOptionNo_C_404",
+		"tb" : "tdOptionDt_C_404",
+		"idop":"lnkOptionLink_C_404"
+		}
+	],
+	"correct" : "A",
+	"no" : 7,
+	"divans":"divAnswer_404",
+	"idtd": "tblOption_404",
+	"hid": "hdnAnswer_404"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Washing soda is the common name for",
+	"answers": [
+		{
+		"text": "Sodium carbonate",
+		"choice": "A",
+		"ide": "tdOptionNo_A_405",
+		"tb" : "tdOptionDt_A_405",
+		"idop":"lnkOptionLink_A_405"
+		},
+		{
+		"text": "Calcium bicarbonate",
+		"choice": "B",
+		"ide": "tdOptionNo_B_405",
+		"tb" : "tdOptionDt_B_405",
+		"idop":"lnkOptionLink_B_405"
+		},
+		{
+		"text": "Sodium bicarbonate",
+		"choice": "C",
+		"ide": "tdOptionNo_C_405",
+		"tb" : "tdOptionDt_C_405",
+		"idop":"lnkOptionLink_C_405"
+		}
+	],
+	"correct" : "A",
+	"no" : 8,
+	"divans":"divAnswer_405",
+	"idtd": "tblOption_405",
+	"hid": "hdnAnswer_405"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Quartz crystals normally used in quartz clocks etc. is chemically",
+	"answers": [
+		{
+		"text": "silicon dioxide",
+		"choice": "A",
+		"ide": "tdOptionNo_A_406",
+		"tb" : "tdOptionDt_A_406",
+		"idop":"lnkOptionLink_A_406"
+		},
+		{
+		"text": "germanium oxide",
+		"choice": "B",
+		"ide": "tdOptionNo_B_406",
+		"tb" : "tdOptionDt_B_406",
+		"idop":"lnkOptionLink_B_406"
+		},
+		{
+		"text": "a mixture of germanium oxide and silicon dioxide",
+		"choice": "C",
+		"ide": "tdOptionNo_C_406",
+		"tb" : "tdOptionDt_C_406",
+		"idop":"lnkOptionLink_C_406"
+		}
+	],
+	"correct" : "A",
+	"no" : 9,
+	"divans":"divAnswer_406",
+	"idtd": "tblOption_406",
+	"hid": "hdnAnswer_406"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Which of the gas is not known as green house gas?",
+	"answers": [
+		{
+		"text": "Methane",
+		"choice": "A",
+		"ide": "tdOptionNo_A_407",
+		"tb" : "tdOptionDt_A_407",
+		"idop":"lnkOptionLink_A_407"
+		},
+		{
+		"text": "Hydrogen",
+		"choice": "B",
+		"ide": "tdOptionNo_B_407",
+		"tb" : "tdOptionDt_B_407",
+		"idop":"lnkOptionLink_B_407"
+		},
+		{
+		"text": "Carbon dioxide",
+		"choice": "C",
+		"ide": "tdOptionNo_C_407",
+		"tb" : "tdOptionDt_C_407",
+		"idop":"lnkOptionLink_C_407"
+		}
+	],
+	"correct" : "B",
+	"no" : 10,
+	"divans":"divAnswer_407",
+	"idtd": "tblOption_407",
+	"hid": "hdnAnswer_407"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "The hardest substance available on earth is",
+	"answers": [
+		{
+		"text": "Gold",
+		"choice": "A",
+		"ide": "tdOptionNo_A_408",
+		"tb" : "tdOptionDt_A_408",
+		"idop":"lnkOptionLink_A_408"
+		},
+		{
+		"text": ".Iron",
+		"choice": "B",
+		"ide": "tdOptionNo_B_408",
+		"tb" : "tdOptionDt_B_408",
+		"idop":"lnkOptionLink_B_408"
+		},
+		{
+		"text": "Diamond",
+		"choice": "C",
+		"ide": "tdOptionNo_C_408",
+		"tb" : "tdOptionDt_C_408",
+		"idop":"lnkOptionLink_C_408"
+		}
+	],
+	"correct" : "C",
+	"no" : 11,
+	"divans":"divAnswer_408",
+	"idtd": "tblOption_408",
+	"hid": "hdnAnswer_408"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "The variety of coal in which the deposit contains recognisable traces of the original plant material is",
+	"answers": [
+		{
+		"text": "peat",
+		"choice": "A",
+		"ide": "tdOptionNo_A_409",
+		"tb" : "tdOptionDt_A_409",
+		"idop":"lnkOptionLink_A_409"
+		},
+		{
+		"text": "anthracite",
+		"choice": "B",
+		"ide": "tdOptionNo_B_409",
+		"tb" : "tdOptionDt_B_409",
+		"idop":"lnkOptionLink_B_409"
+		},
+		{
+		"text": "butamine",
+		"choice": "C",
+		"ide": "tdOptionNo_C_409",
+		"tb" : "tdOptionDt_C_409",
+		"idop":"lnkOptionLink_C_409"
+		}
+	],
+	"correct" : "A",
+	"no" : 12,
+	"divans":"divAnswer_409",
+	"idtd": "tblOption_409",
+	"hid": "hdnAnswer_409"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Tetraethyl lead is used as",
+	"answers": [
+		{
+		"text": "mosquito repellent",
+		"choice": "A",
+		"ide": "tdOptionNo_A_410",
+		"tb" : "tdOptionDt_A_410",
+		"idop":"lnkOptionLink_A_410"
+		},
+		{
+		"text": "petrol additive",
+		"choice": "B",
+		"ide": "tdOptionNo_B_410",
+		"tb" : "tdOptionDt_B_410",
+		"idop":"lnkOptionLink_B_410"
+		},
+		{
+		"text": "pain killer",
+		"choice": "C",
+		"ide": "tdOptionNo_C_410",
+		"tb" : "tdOptionDt_C_410",
+		"idop":"lnkOptionLink_C_410"
+		}
+	],
+	"correct" : "B",
+	"no" : 13,
+	"divans":"divAnswer_410",
+	"idtd": "tblOption_410",
+	"hid": "hdnAnswer_410"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": "Which of the following is used as a lubricant?",
+	"answers": [
+		{
+		"text": "Graphite",
+		"choice": "A",
+		"ide": "tdOptionNo_A_411",
+		"tb" : "tdOptionDt_A_411",
+		"idop":"lnkOptionLink_A_411"
+		},
+		{
+		"text": "Silica",
+		"choice": "B",
+		"ide": "tdOptionNo_B_411",
+		"tb" : "tdOptionDt_B_411",
+		"idop":"lnkOptionLink_B_411"
+		},
+		{
+		"text": "Mabel",
+		"choice": "C",
+		"ide": "tdOptionNo_C_411",
+		"tb" : "tdOptionDt_C_411",
+		"idop":"lnkOptionLink_C_411"
+		}
+	],
+	"correct" : "A",
+	"no" : 14,
+	"divans":"divAnswer_411",
+	"idtd": "tblOption_411",
+	"hid": "hdnAnswer_411"
+},
+{
+	"timestamp": "2018-02-02 20:04:22",
+	"question": " Bromine is a",
+	"answers": [
+		{
+		"text": "black solid",
+		"choice": "A",
+		"ide": "tdOptionNo_A_412",
+		"tb" : "tdOptionDt_A_412",
+		"idop":"lnkOptionLink_A_412"
+		},
+		{
+		"text": "red liquid",
+		"choice": "B",
+		"ide": "tdOptionNo_B_412",
+		"tb" : "tdOptionDt_B_412",
+		"idop":"lnkOptionLink_B_412"
+		},
+		{
+		"text": "highly inflammable gas",
+		"choice": "C",
+		"ide": "tdOptionNo_C_412",
+		"tb" : "tdOptionDt_C_412",
+		"idop":"lnkOptionLink_C_412"
+		}
+	],
+	"correct" : "B",
+	"no" : 15,
+	"divans":"divAnswer_412",
+	"idtd": "tblOption_412",
+	"hid": "hdnAnswer_412"
+}
+])
